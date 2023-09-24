@@ -5,7 +5,7 @@ const clickmeCounter = [0]
 clickme.addEventListener("click", function(){
     if(clickmeCounter[0] == 0){
         console.log("hello")
-        alert("HELLO CLICK ME AGAIN AND AGAIN")
+        alert("GOOJOB, click me agian but no more popups i promise")
         document.body.style.backgroundColor = "lightblue";
         document.body.style.fontFamily = "Arial"
         clickmeCounter[0] = 1
@@ -17,7 +17,6 @@ clickme.addEventListener("click", function(){
     narration.innerHTML = "I will stop harrasing you with popups and talk to you via this text box from now on :-)"
 
     parent.removeChild(clickme)
-    alert("GOODJOB")
     createDescription()
 
 
