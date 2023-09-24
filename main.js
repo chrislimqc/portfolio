@@ -5,7 +5,7 @@ const clickmeCounter = [0]
 clickme.addEventListener("click", function(){
     if(clickmeCounter[0] == 0){
         console.log("hello")
-        alert("HELLO CLICK ME AGAIN")
+        alert("HELLO CLICK ME AGAIN AND AGAIN")
         document.body.style.backgroundColor = "lightblue";
         document.body.style.fontFamily = "Arial"
         clickmeCounter[0] = 1
