@@ -14,7 +14,7 @@ clickme.addEventListener("click", function(){
     document.body.style.backgroundColor = "lightblue";
     document.body.style.fontFamily = "Arial"
     const parent = document.getElementById("center")
-    narration.innerHTML = "I will stop harrasing you with popups and talk to you via this text box from now on :-)"
+    narration.innerHTML = "I will stop harrasing you with popups and talk to you via this text box from now on"
 
     parent.removeChild(clickme)
     createDescription()
@@ -31,17 +31,17 @@ function createDescription(){
 
     const name = document.createElement("ul")
     name.id = "name"
-    name.innerHTML = "Lim Qing Chuan"
+    name.innerHTML = "Name: Lim Qing Chuan"
 
 
     const about = document.createElement("ul")
     about.id = "about"
-    about.innerHTML = "Year 4 Computer Science student at Nanyang Technological University"
+    about.innerHTML = "AboutL Year 4 Computer Science student at Nanyang Technological University"
 
 
     const portfolio = document.createElement("ul")
     portfolio.id = "portfolio"
-    portfolio.innerHTML = "you're looking at it, to skip to the end click here"
+    portfolio.innerHTML = "Portfolio: you're looking at it, to skip to the end click here"
 
 
     const contact = document.createElement("ul")
