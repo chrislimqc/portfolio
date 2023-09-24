@@ -45,7 +45,7 @@ function createDescription(){
 
 
     const contact = document.createElement("ul")
-    contact.id = "contact"
+    contact.id = "Contact"
     contact.innerHTML = "email: chrislim.qc@gmail.com"
 
     div.appendChild(name)
