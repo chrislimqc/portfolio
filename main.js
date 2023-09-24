@@ -36,7 +36,7 @@ function createDescription(){
 
     const about = document.createElement("ul")
     about.id = "about"
-    about.innerHTML = "AboutL Year 4 Computer Science student at Nanyang Technological University"
+    about.innerHTML = "About: Year 4 Computer Science student at Nanyang Technological University"
 
 
     const portfolio = document.createElement("ul")
