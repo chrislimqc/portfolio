@@ -28,7 +28,7 @@ btn.addEventListener('click', function() {
 clickme.addEventListener("click", function(){
     if(clickmeCounter[0] == 0){
         console.log("hello")
-        alert("GOOJOB, click me agian but no more popups i promise")
+        alert("GOODJOB, click me agian but no more popups i promise")
         document.body.style.backgroundColor = "lightblue";
         document.body.style.fontFamily = "Arial"
         clickmeCounter[0] = 1
