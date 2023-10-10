@@ -12,7 +12,7 @@ btn.addEventListener('click', function() {
     firework.className = 'firework';
 
     // Random horizontal position
-    var xPosition = Math.random() * window.innerWidth;
+    var xPosition = Math.random() * window.innerWidth * 0.9;
     firework.style.left = xPosition + 'px';
 
     // Append to body
